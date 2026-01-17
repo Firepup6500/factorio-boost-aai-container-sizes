@@ -14,20 +14,20 @@ local containers = {
         "aai-strongbox-requester"
     },
     ["storehouses"] = {
-       "aai-strongbox",
-        "aai-strongbox-passive-provider",
-        "aai-strongbox-active-provider",
-        "aai-strongbox-storage",
-        "aai-strongbox-buffer",
-        "aai-strongbox-requester"
+       "aai-storehouse",
+        "aai-storehouse-passive-provider",
+        "aai-storehouse-active-provider",
+        "aai-storehouse-storage",
+        "aai-storehouse-buffer",
+        "aai-storehouse-requester"
     },
     ["warehouses"] = {
-        "aai-strongbox",
-        "aai-strongbox-passive-provider",
-        "aai-strongbox-active-provider",
-        "aai-strongbox-storage",
-        "aai-strongbox-buffer",
-        "aai-strongbox-requester"
+        "aai-warehouse",
+        "aai-warehouse-passive-provider",
+        "aai-warehouse-active-provider",
+        "aai-warehouse-storage",
+        "aai-warehouse-buffer",
+        "aai-warehouse-requester"
     }
 }
 for category, containerNames in pairs(containers) do
