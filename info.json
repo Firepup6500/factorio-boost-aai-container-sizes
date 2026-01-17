@@ -1,0 +1,9 @@
+{
+  "name": "boost-aai-container-sizes",
+  "version": "1.0.0",
+  "title": "AAI Containers Size booster",
+  "author": "Firepup650",
+  "factorio_version": "2.0",
+  "dependencies": ["base >= 2.0", "aai-containers"],
+  "description": "Boosts the size of containers and warehouses added by AAI Containers & Warehouses, to make them acutally worth using over their vanilla counterparts"
+}
