@@ -1,11 +1,11 @@
 local vanillaClamp = settings.startup["aai-boost-clamp-to-vanilla"].value
 local sizes = {
-    ["strongboxes"]: vanillaClamp and 192 or 256,
-    ["storehouses"]: vanillaClamp and 768 or 1280,
-    ["warehouses"]: vanillaClamp and 1728 or 3456
+    ["strongboxes"] = vanillaClamp and 192 or 256,
+    ["storehouses"] = vanillaClamp and 768 or 1280,
+    ["warehouses"] = vanillaClamp and 1728 or 3456
 }
 local containers = {
-    ["strongboxes"]: {
+    ["strongboxes"] = {
         "aai-strongbox",
         "aai-strongbox-passive-provider",
         "aai-strongbox-active-provider",
@@ -13,7 +13,7 @@ local containers = {
         "aai-strongbox-buffer",
         "aai-strongbox-requester"
     },
-    ["storehouses"]: {
+    ["storehouses"] = {
        "aai-strongbox",
         "aai-strongbox-passive-provider",
         "aai-strongbox-active-provider",
@@ -21,7 +21,7 @@ local containers = {
         "aai-strongbox-buffer",
         "aai-strongbox-requester"
     },
-    ["warehouses"]: {
+    ["warehouses"] = {
         "aai-strongbox",
         "aai-strongbox-passive-provider",
         "aai-strongbox-active-provider",
